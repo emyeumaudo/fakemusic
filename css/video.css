@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-gap: 0;
+  min-height: 100vh;
+  background-image: url("../img/young-handsome-happy-hipster-man-listening-music-with-headphones-black-studio-with-neon-lights.jpg");
+  background-size: cover;
+  /* background-position: center;
+  background-attachment: fixed; */
+}
+
+.wrapper .slidebar {
+  background-color: rgb(117, 113, 113, 0.4);
+  padding: 20px 30px;
+}
+
+.slidebar .menu ul {
+  margin: 50px 20px;
+}
+
+.slidebar .menu ul a > * {
+  margin-bottom: 30px;
+}
+
+.slidebar .menu ul a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#home {
+  color: rgb(164, 164, 164);
+}
+
+.slidebar .social-list {
+  margin-left: 20px;
+  margin-top: 280px;
+}
+
+.slidebar .social-list > * {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.main {
+  padding: 25px 35px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.search {
+  padding: 8px 30px;
+  border: 1px solid #e9ebf2;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  max-width: 400px;
+  margin-right: 30px;
+}
+
+.search-icon {
+  color: #fff;
+}
+
+.search-input {
+  color: #fff;
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 0 15px;
+  background: none;
+}
+
+.tool {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.upgrade {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to right, #fb612c, #fc2872);
+  border-radius: 50px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.block-box {
+  margin-left: 10px;
+}
+/* COntent */
+.content {
+  display: flexbox;
+  display: grid;
+}
